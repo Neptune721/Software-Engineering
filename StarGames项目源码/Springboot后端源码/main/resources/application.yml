@@ -1,0 +1,42 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://sh-cynosdbmysql-grp-m2zvfhyo.sql.tencentcdb.com:23503/Game
+    username: StarGames
+    password: Xibeisan-248842
+
+
+spring.mail:
+  port:
+  host: smtp.qq.com
+  username: 1061633882@qq.com
+  password: nmxiktnslgndbaje
+  test-connection: false
+  default-encoding: UTF-8
+  properties:
+    mail:
+      debug: false
+      smtp:
+        timeout: 5000
+        ssl:
+          enable: true
+        socketFactory:
+          port:
+          class:
+        auth: true
+        starttls:
+          enable: true
+          required: true
+
+alipay:
+  appId: 2021000121691895
+  privateKey: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCqb+6OHNVDHQwUBhTdhVV/Vlet/bNMtOVzlZemhYaViDo/rXMyaawA5yXFNkxmCO2EiaaaVugfxP1JinQXHowEZsKxLgZDLcua1xMjx2/6M1YLmleOVCbsMdgw6B82fiWIwyheoiQS9oOCNfoXFz42XVMcFK6JWnmbkB0yzxrlHos/rpS9pJYY00jahTaEtzfJVYZA1ZI/AT5LV0vY9bWT8CCLT/2yDz8BtjRvSlx3eh1TAozgMm6zAhIAzlDbcXlYKPfaEmc0t9jPOIQzPS975VxESr7hafB1gRvgqCCDgrxoKlmwa1g/sk/GPh1HhxbajqcN+v4/catpYPgcF8K9AgMBAAECggEBAJ2JwsZHLnTPh5eGm4i6svF1vKvNogrX9nLlJfy81U6oUbcEO0Ow21UmUwo8C1gRDoKAvadRh1O+QKTWPkIUcTWsSm99bDpyPQ2NmVpsATwScYleC2o6rJOL6xohpKA477a/NTRryM5iX+JexCDN0ipsDuMY1s+M+nTpO6P4PRLjqbBCNp6iRNut/OODAhDE10cMpTqdDZ+rX7pEcNOqMHIeccKsVtQ62g4xeb80OXq3AHdvzcTqqg0Jl5oYIN7AtaikYJQu1hKNup21wifU7mziJSUQX1lOva011PR9ex8xZf/2DUZ0CeWXLhAYt35RFBEjPcLoYEN9e1rQcfwrY4ECgYEA5ldg9B1/VkjaZVlO7xXy0w+PPmiX/G1Pd7NpPSt97EoY+2EGmqooST+G2oo04CZhrwCZPZA9GukZmezvwKuh+zfLfjS++hb5PnzMwBJEg2Ym0CUa+21pvWSRQqn/2kHeH0UEW5gRa3SuwvKYjbl84nGnAtegjygZNJUNfrSI7CECgYEAvWxGJMc9rpxOM4j9BKZU03+t/ykAwk/Ydp4QvWxg6zWejP1dE/fMU4z/iK67rf51KoWc3dCsO+zzqT2EnMbO501ihSah0E/jHoOx4XWK0MjXRhIA371BHH7Cv2U1mlSSy8ubJlIOa9qzV3JW09BANjNhhClYT8+KzzppKtK8ox0CgYAkA8+F+8K4NAXpyM/9s/nWpF0qTeJNtq2xMp0m0lELC/7h9ya4MhjAcy1bqDZiQb4ORdKv/IiBV6cIGTLXdj6KcAviPM8LfWIVMiA1e+W4gdVZwCN64n2g/kN0H+6AKsJXM0xeIeW/Xmwg0RunNTRgl5KccCiLmaJvRUrp38J04QKBgCgm/2dkZIrSzzDVZOzLZUe/1N41jtehnTznnJzKkHDLWOSCAGzvJfy/8prCjz3+pk9xKyNJzHiXbb7+L1IcQld9a9jVq49An+AkAlzMUbSYHinYPx8uOtMTe6yeg5JHQya37hddZXkvTrzGm+kiR7o1ggJF0VZ5o+7xbsGJEjtxAoGAHa+opxu5x/JKeharS8U7YjRkV4akoSsMM/XLp0HNug+Pa1PMWo+fShCfySnmlCLlVgQBfzkNxRtlPGNNkx0jCbuXbYRyqfwgtmVlPeKTClbbc0/6zWfJy34FeF5Wq5WB7LZg37tbOOynP7RRjrPbsH3awwCXIqGIudTSNCqkp2Y=
+  publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx4PKPoW0HL82rB+4Fo68Ju2pJl1Qnz1HvstJW1m+Sbu0dByZM0BhR1Iad2/DL/EWo1JGuza/R1TtzU8NnDKhWzsq/4CdmwX2W8Cnca/ksaFzxqEv7SxI0dFW52hlA+00I5lY07BWRjEVkRCCwunamS7xLvE17j1Jk4lwONSt7AtbKyFtkOAfhYPyAZKVfyTjurN6IS9YGxAwQMiST7OEWwqCJESvIktzWoM51OptJSavAa6HglAnCrJFcvvx53y0rkxWf/5gvv+qOwR3OvPYMrh0sKnZoP/VoVQA6EH/+dKEXNUPVcbJX6kUe/f+yJavb8CPl7j6P1RNJuB1ICpk5QIDAQAB
+  gateway: openapi.alipaydev.com/gateway.do
+  returnUrl: http://43.143.159.150:8080
+  #returnUrl: http://localhost:8080
+  notifyUrl: /api/alipay/notify_url
+  errorUrl: /error_url.html
+
+serve:
+  port:8080
